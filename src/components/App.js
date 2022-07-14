@@ -1,5 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+import '../styles/App.css';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const App = () => {
+  return (
+    <>
+
+    <p>I can render any DOM node using ReactDOM.render</p>
+
+    </>
+  )
+}
+
+
+export default App;
