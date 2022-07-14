@@ -1,11 +1,10 @@
-import React from "react";
-import '../styles/App.css';
+import React, {Component, useState} from "react";
 
 const App = () => {
   return (
     <>
     <div>
-        <p>I can render any DOM node using ReactDOM.render</p>
+        <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
     </div>
     
 
